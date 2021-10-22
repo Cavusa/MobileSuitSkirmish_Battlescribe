@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="443d-0f97-24f7-ab6c" name="Principality of Zeon" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="65de-b573-588d-4d3e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="fd7b-347b-7eb1-b98f" name="Zaku II" hidden="false" collective="false" import="true" targetId="4000-a7b9-0d08-c2aa" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e208-3b70-7ab1-2905" name="Mobile Suit" hidden="false" targetId="6f34-92ed-4013-bc59" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="093c-eba8-b3f5-3420" name="Zaku I Sniper Type" hidden="false" collective="false" import="true" targetId="f3db-521d-41f9-653d" type="selectionEntry"/>
+    <entryLink id="3ebd-bd50-b333-8ae5" name="Zaku I" hidden="false" collective="false" import="true" targetId="a8e9-a01f-21a8-7aa8" type="selectionEntry"/>
+    <entryLink id="6710-dc19-c1d2-76e5" name="Zaku Cannon" hidden="false" collective="false" import="true" targetId="8ca5-d363-e92d-91a2" type="selectionEntry"/>
+    <entryLink id="d623-d248-9c2a-5721" name="Zaku II Commander Type" hidden="false" collective="false" import="true" targetId="7b68-1c3f-3cd2-0c4a" type="selectionEntry"/>
+    <entryLink id="c360-9e2e-cbec-7cbd" name="Dom" hidden="false" collective="false" import="true" targetId="0896-2870-c627-9b4a" type="selectionEntry"/>
+    <entryLink id="77cb-7ada-105b-a398" name="Rick Dom II" hidden="false" collective="false" import="true" targetId="6dae-fcb0-faf6-415c" type="selectionEntry"/>
+    <entryLink id="9dc7-7383-a943-fa08" name="Rick Dom" hidden="false" collective="false" import="true" targetId="023b-dfe0-41b4-2c35" type="selectionEntry"/>
+  </entryLinks>
+</catalogue>
