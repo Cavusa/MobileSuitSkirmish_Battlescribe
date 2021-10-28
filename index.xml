@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dataIndex battleScribeVersion="2.03" name="Mobile Suit Skirmish" indexUrl="https://raw.githubusercontent.com/Cavusa/MobileSuitSkirmish_Battlescribe/main/index.bsi" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
   <dataIndexEntries>
-    <dataIndexEntry filePath="Mobile Suit Skirmish.gstz" dataType="gamesystem" dataId="65de-b573-588d-4d3e" dataName="Mobile Suit Skirmish" dataBattleScribeVersion="2.03" dataRevision="5"/>
+    <dataIndexEntry filePath="Mobile Suit Skirmish.gstz" dataType="gamesystem" dataId="65de-b573-588d-4d3e" dataName="Mobile Suit Skirmish" dataBattleScribeVersion="2.03" dataRevision="6"/>
     <dataIndexEntry filePath="Principality of Zeon.catz" dataType="catalogue" dataId="443d-0f97-24f7-ab6c" dataName="Principality of Zeon" dataBattleScribeVersion="2.03" dataRevision="3"/>
-    <dataIndexEntry filePath="Earth Federation Forces.catz" dataType="catalogue" dataId="30f2-5314-861b-148b" dataName="Earth Federation Forces" dataBattleScribeVersion="2.03" dataRevision="4"/>
+    <dataIndexEntry filePath="Earth Federation Forces.catz" dataType="catalogue" dataId="30f2-5314-861b-148b" dataName="Earth Federation Forces" dataBattleScribeVersion="2.03" dataRevision="5"/>
   </dataIndexEntries>
 </dataIndex>
