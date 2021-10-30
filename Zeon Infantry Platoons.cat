@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="f92c-20df-e57b-ce98" name="Zeon Infantry Platoons" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="65de-b573-588d-4d3e" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profileTypes>
+    <profileType id="6787-bd84-756c-f459" name="Infantry">
+      <characteristicTypes>
+        <characteristicType id="6a91-2755-605c-2827" name="Movement"/>
+        <characteristicType id="a664-197b-a659-e207" name="Flank"/>
+        <characteristicType id="81bc-5e29-4d2c-ad7d" name="Integrity"/>
+        <characteristicType id="417d-dc36-ec35-c315" name="Armor"/>
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
+  <forceEntries>
+    <forceEntry id="f2d9-e573-8155-b773" name="1-3-0 Platoons" hidden="false">
+      <categoryLinks>
+        <categoryLink id="ec18-06fd-eeaf-af62" name="Infantry Platoons" hidden="false" targetId="eed2-5bfd-568f-669d" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries>
+    <selectionEntry id="6ae8-8b90-c4ab-bb22" name="Zeon Heavy Weapons Zug" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="84ff-8540-7fc7-2e23" name="Zeon Infantry Zug" hidden="false" targetId="067c-2414-79cc-3e06" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Zeon Heavy Weapons Zug"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="5643-7416-9944-9aa3" name="Dig In!" hidden="false" targetId="acec-c9f4-fee8-fc32" type="profile"/>
+        <infoLink id="ebac-72fd-00e6-2c64" name="Ambush" hidden="false" targetId="4599-2619-584d-9fef" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b3f0-9858-ac95-0736" name="Infantry Platoons" hidden="false" targetId="eed2-5bfd-568f-669d" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c698-18eb-5870-0af7" name="Squads" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="82dc-ec25-0b48-9f2f" name="Command Squad" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b836-9014-ee20-bf63" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db6f-c187-a4c9-f0c8" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="b1bb-7655-b126-786c" name="Platoon Leader" hidden="false" targetId="622e-9ace-d8bb-7bda" type="profile"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="615b-94c2-cd2c-a0a6" name="Assault Rifles" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5948-f7d8-50c8-0b67" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f15a-8519-1ba3-87e6" type="min"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="c6c6-e945-7e61-1a6b" name="Assault Rifles" hidden="false" targetId="3bb2-8f1c-3564-94fc" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry id="879e-ff3b-deeb-77dd" name="Heavy Squad" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47d9-b288-5ec2-2197" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d1a-2660-644c-33e6" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="b0b4-167c-4836-5ff5" name="82mm Bazooka" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22fc-596d-792a-1be8" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcb9-77cd-89c7-deb7" type="min"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="14e8-c9b0-e248-f46d" name="Rockets, Needle Missiles, MIssile Pods" hidden="false" targetId="21fb-eb81-fa74-3be4" type="profile">
+                      <modifiers>
+                        <modifier type="set" field="name" value="82mm Bazooka"/>
+                        <modifier type="set" field="c2ea-3557-d008-4e7d" value="M"/>
+                        <modifier type="set" field="b031-a470-2714-aabe" value="&lt;RQ&gt;"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry id="a732-17dd-3f72-afd2" name="Heavy Squad" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53e3-78ff-ff1c-3376" type="max"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="318b-f08a-2673-db3f" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="9cf2-1d5b-72fb-3b60" name="7.62 GPMG" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1cc-3619-fbda-585b" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7d3-5856-78df-f792" type="min"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="a15b-42a8-2f01-df26" name="Vulcan Guns" hidden="false" targetId="e5a9-32cc-01d4-e7c7" type="profile">
+                      <modifiers>
+                        <modifier type="set" field="name" value="7.62 GPMG"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="58a5-a9a9-413d-15a6" value="220.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6b66-68e3-7a1c-60b8" name="Zeon Kommando Zug" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="a926-a8e5-98a8-5375" name="Fearless" hidden="false" targetId="2391-0139-f806-dac3" type="profile"/>
+        <infoLink id="1ea6-fe4d-9b49-88ca" name="Knife-Fighters" hidden="false" targetId="01d7-41fc-a22f-398d" type="profile"/>
+        <infoLink id="55c7-6fef-76c2-0a41" name="Jet Packs" hidden="false" targetId="eeaf-5e39-5be7-0009" type="profile"/>
+        <infoLink id="8e40-1b79-361f-f133" name="Demolition Charges" hidden="false" targetId="130d-f3e7-0eab-0a4a" type="profile"/>
+        <infoLink id="5350-06aa-243b-2fa6" name="Demolition Charges CCW" hidden="false" targetId="9595-99af-2877-1961" type="profile"/>
+        <infoLink id="a830-09b8-a22e-17b6" name="Zeon Kommando Zug" hidden="false" targetId="fd2a-13ff-295c-ce7d" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cdb8-50d7-e345-2250" name="Infantry Platoons" hidden="false" targetId="eed2-5bfd-568f-669d" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="aff4-32c0-4192-58fa" name="Squads" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="b82d-4cc2-97f4-af50" name="Command Squad" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c732-59a3-8215-81e4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ab5-3466-8032-b7ab" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="d7ec-12cb-666c-ab14" name="Platoon Leader" hidden="false" targetId="622e-9ace-d8bb-7bda" type="profile"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="aaec-a937-cd53-ef11" name="Assault Rifles" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="669f-8b5a-3666-442e" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1c5-6e14-82dc-1195" type="min"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="83d9-a86e-2857-86d3" name="Assault Rifles" hidden="false" targetId="3bb2-8f1c-3564-94fc" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry id="4596-6f00-253c-244c" name="Rifle Squads" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae39-4734-3106-e369" type="max"/>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ace6-5aa7-9286-1333" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="f6d5-eec3-aae5-5c14" name="Assault Rifles" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93ae-ddca-d679-44c8" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="237f-9521-306c-2c83" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="7a19-a520-ea58-8a23" name="Assault Rifles" hidden="false" targetId="3bb2-8f1c-3564-94fc" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry id="db61-30ff-d8c2-8f6f" name="Heavy Squad" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68e9-a640-1868-2886" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23f0-b1fd-012a-ecfb" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="50b0-f12c-72bb-61f9" name="7.62 GPMG" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9c8-7efa-8c86-5ee7" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaa9-8083-cc14-5f9d" type="min"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="dc02-714b-17ab-d9eb" name="Vulcan Guns" hidden="false" targetId="e5a9-32cc-01d4-e7c7" type="profile">
+                      <modifiers>
+                        <modifier type="set" field="name" value="7.62 GPMG"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="58a5-a9a9-413d-15a6" value="205.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e829-6c6e-ea57-25f2" name="Zeon Rifle Zug" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="dfb9-1f43-de3f-aaa8" name="Zeon Infantry Zug" hidden="false" targetId="067c-2414-79cc-3e06" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Zeon Rifle Zug"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="c560-052d-1c67-ee92" name="Sieg Zeon!" hidden="false" targetId="7a97-4387-539b-4a23" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Massed Fire (Assault Rifles)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="eb2c-e1d2-f0c9-f29b" name="Dig In!" hidden="false" targetId="acec-c9f4-fee8-fc32" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="72a0-26c0-69eb-98d6" name="Infantry Platoons" hidden="false" targetId="eed2-5bfd-568f-669d" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="96ce-4242-0097-7b4c" name="Squads" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="1679-1bc2-bf44-de0d" name="Command Squad" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57e5-35bb-c164-3b85" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f82-13da-e851-2dc9" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="c5c3-0896-48b4-7328" name="Platoon Leader" hidden="false" targetId="622e-9ace-d8bb-7bda" type="profile"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="b465-cc6e-df3f-d5b8" name="Assault Rifles" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5176-1a74-8a06-4f0b" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bd2-a5fa-835f-b941" type="min"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="5a9c-bc7a-cfb7-3f22" name="Assault Rifles" hidden="false" targetId="3bb2-8f1c-3564-94fc" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry id="4532-b931-5036-ec7d" name="Rifle Squads" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbc5-8613-c389-c891" type="max"/>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5800-f357-ac64-b441" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="19f7-ecb9-4cee-6f8e" name="Assault Rifles" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3508-fd96-0f12-233a" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c2a-2ba1-668f-2f31" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="6206-b727-8a13-ca6c" name="Assault Rifles" hidden="false" targetId="3bb2-8f1c-3564-94fc" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry id="b0d7-905d-0faa-d797" name="Heavy Squad" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad66-569b-3de1-b983" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f101-11c0-a938-94f7" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="467a-98c3-51c2-3cd9" name="7.62 GPMG" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2654-3dd3-67ef-6454" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="328c-bbc9-036c-7fb5" type="min"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="4ea7-d35b-027c-2d49" name="Vulcan Guns" hidden="false" targetId="e5a9-32cc-01d4-e7c7" type="profile">
+                      <modifiers>
+                        <modifier type="set" field="name" value="7.62 GPMG"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="58a5-a9a9-413d-15a6" value="150.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedProfiles>
+    <profile id="3bb2-8f1c-3564-94fc" name="Assault Rifles" hidden="false" typeId="d68f-9641-0d4e-b565" typeName="Ranged Weapons">
+      <characteristics>
+        <characteristic name="Class" typeId="e63d-5d35-9c44-9cbd">Low Calibre</characteristic>
+        <characteristic name="Equip" typeId="c2ea-3557-d008-4e7d">M</characteristic>
+        <characteristic name="Tags" typeId="b031-a470-2714-aabe">&lt;SA&gt;</characteristic>
+        <characteristic name="Reload" typeId="ca6c-d830-067e-5c64">N/A</characteristic>
+        <characteristic name="Shots" typeId="9e8b-953b-9d4a-9d48">2</characteristic>
+        <characteristic name="Acc" typeId="5b80-b5e7-3730-79ab">5+</characteristic>
+        <characteristic name="Crit" typeId="7f8a-db0f-c0ce-f0b3">/</characteristic>
+        <characteristic name="Range" typeId="19f1-5f0d-cc38-2af4">0&quot; - 12&quot;</characteristic>
+        <characteristic name="Dam" typeId="82e9-029e-31d5-832b">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="067c-2414-79cc-3e06" name="Zeon Infantry Zug" hidden="false" typeId="6787-bd84-756c-f459" typeName="Infantry">
+      <characteristics>
+        <characteristic name="Movement" typeId="6a91-2755-605c-2827">1&quot;</characteristic>
+        <characteristic name="Flank" typeId="a664-197b-a659-e207">2&quot;</characteristic>
+        <characteristic name="Integrity" typeId="81bc-5e29-4d2c-ad7d">1 per Squad</characteristic>
+        <characteristic name="Armor" typeId="417d-dc36-ec35-c315">1 / 6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9595-99af-2877-1961" name="Demolition Charges CCW" hidden="false" typeId="dcb7-0ed8-79ba-76d5" typeName="Close Combat Weapons">
+      <characteristics>
+        <characteristic name="Dex" typeId="78eb-c7a2-cd4e-3bf3">M</characteristic>
+        <characteristic name="Tags" typeId="b1ae-af13-e8d8-c54a">&lt;PB&gt;</characteristic>
+        <characteristic name="Attack" typeId="ac55-602a-1cec-9b4b">0</characteristic>
+        <characteristic name="Acc" typeId="cd75-16eb-5b3b-60b2">3</characteristic>
+        <characteristic name="Crit" typeId="0261-a23c-2375-ea26">5+</characteristic>
+        <characteristic name="Dam" typeId="ace3-d882-1c8b-1d86">/</characteristic>
+        <characteristic name="Equip" typeId="82d2-da7d-a401-d62a">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="622e-9ace-d8bb-7bda" name="Platoon Leader" hidden="false" typeId="811c-f4af-1ef1-ab4e" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Type" typeId="96df-fe4d-78f3-7b9f">&lt;Passive&gt;</characteristic>
+        <characteristic name="Description" typeId="6435-96a0-05b7-c3d1">This Unit can only issue Orders to Infantry Squads and Vehicles that are part of its Platoon.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="01d7-41fc-a22f-398d" name="Knife-Fighters" hidden="false" typeId="811c-f4af-1ef1-ab4e" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Type" typeId="96df-fe4d-78f3-7b9f">&lt;Passive&gt;</characteristic>
+        <characteristic name="Description" typeId="6435-96a0-05b7-c3d1">This Unit always gains +1 Attack in Close Combat against Infantry Units.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="eeaf-5e39-5be7-0009" name="Jet Packs" hidden="false" typeId="811c-f4af-1ef1-ab4e" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Type" typeId="96df-fe4d-78f3-7b9f">&lt;Passive&gt;</characteristic>
+        <characteristic name="Description" typeId="6435-96a0-05b7-c3d1">This Unit may Boost 8”. Heavy Weapon Squads that convert to Commandoes do not gain this Ability.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2391-0139-f806-dac3" name="Fearless" hidden="false" typeId="811c-f4af-1ef1-ab4e" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Type" typeId="96df-fe4d-78f3-7b9f">&lt;Passive&gt;</characteristic>
+        <characteristic name="Description" typeId="6435-96a0-05b7-c3d1">This Unit never needs to check Morale.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="acec-c9f4-fee8-fc32" name="Dig In!" hidden="false" typeId="811c-f4af-1ef1-ab4e" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Type" typeId="96df-fe4d-78f3-7b9f">&lt;Active&gt;</characteristic>
+        <characteristic name="Description" typeId="6435-96a0-05b7-c3d1">When this ability is active all successful Hits against this Unit must be re-rolled once.
+However, while ‘dug’ in, this Unit may not perform any Actions with the exception of Activate Ability which immediately deactivates the effects of Dig In!</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="130d-f3e7-0eab-0a4a" name="Demolition Charges" hidden="false" typeId="811c-f4af-1ef1-ab4e" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Type" typeId="96df-fe4d-78f3-7b9f">&lt;Passive&gt;</characteristic>
+        <characteristic name="Description" typeId="6435-96a0-05b7-c3d1">This Unit may perform Close Combat against Units with an Armour value of 1 or more using Demolition Charges CCW.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4599-2619-584d-9fef" name="Ambush" hidden="false" typeId="811c-f4af-1ef1-ab4e" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Type" typeId="96df-fe4d-78f3-7b9f">&lt;Active&gt;</characteristic>
+        <characteristic name="Description" typeId="6435-96a0-05b7-c3d1">This unit may elect to Ambush during their Player’s Deployment or during any Player’s Initial Upkeep phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fd2a-13ff-295c-ce7d" name="Zeon Kommando Zug" hidden="false" typeId="6787-bd84-756c-f459" typeName="Infantry">
+      <characteristics>
+        <characteristic name="Movement" typeId="6a91-2755-605c-2827">1&quot;</characteristic>
+        <characteristic name="Flank" typeId="a664-197b-a659-e207">8&quot;</characteristic>
+        <characteristic name="Integrity" typeId="81bc-5e29-4d2c-ad7d">1 per Squad</characteristic>
+        <characteristic name="Armor" typeId="417d-dc36-ec35-c315">1 / 6+</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
