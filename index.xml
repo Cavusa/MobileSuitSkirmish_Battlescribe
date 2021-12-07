@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dataIndex battleScribeVersion="2.03" name="Mobile Suit Skirmish" indexUrl="https://raw.githubusercontent.com/Cavusa/MobileSuitSkirmish_Battlescribe/main/index.bsi" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
   <dataIndexEntries>
-    <dataIndexEntry filePath="Mobile Suit Skirmish.gstz" dataType="gamesystem" dataId="65de-b573-588d-4d3e" dataName="Mobile Suit Skirmish" dataBattleScribeVersion="2.03" dataRevision="15"/>
+    <dataIndexEntry filePath="Mobile Suit Skirmish.gstz" dataType="gamesystem" dataId="65de-b573-588d-4d3e" dataName="Mobile Suit Skirmish" dataBattleScribeVersion="2.03" dataRevision="16"/>
     <dataIndexEntry filePath="Principality of Zeon.catz" dataType="catalogue" dataId="443d-0f97-24f7-ab6c" dataName="Principality of Zeon" dataBattleScribeVersion="2.03" dataRevision="4"/>
     <dataIndexEntry filePath="Origin UC Federation.catz" dataType="catalogue" dataId="4b57-4f45-b22f-0dee" dataName="Origin UC Federation" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Origin UC Zeon.catz" dataType="catalogue" dataId="e7fb-242a-82c9-8fec" dataName="Origin UC Zeon" dataBattleScribeVersion="2.03" dataRevision="2"/>
     <dataIndexEntry filePath="Zeon Infantry Platoons.catz" dataType="catalogue" dataId="f92c-20df-e57b-ce98" dataName="Zeon Infantry Platoons" dataBattleScribeVersion="2.03" dataRevision="2"/>
     <dataIndexEntry filePath="EFGF Infantry Platoons.catz" dataType="catalogue" dataId="a2cc-121d-02a2-181a" dataName="EFGF Infantry Platoons" dataBattleScribeVersion="2.03" dataRevision="2"/>
-    <dataIndexEntry filePath="UC Zeon (OYW to Stardust Memory).catz" dataType="catalogue" dataId="2090-896d-2c67-61a9" dataName="UC Zeon (OYW to Stardust Memory)" dataBattleScribeVersion="2.03" dataRevision="2"/>
+    <dataIndexEntry filePath="UC Zeon (OYW to Stardust Memory).catz" dataType="catalogue" dataId="2090-896d-2c67-61a9" dataName="UC Zeon (OYW to Stardust Memory)" dataBattleScribeVersion="2.03" dataRevision="4"/>
     <dataIndexEntry filePath="Earth Federation Forces.catz" dataType="catalogue" dataId="30f2-5314-861b-148b" dataName="Earth Federation Forces" dataBattleScribeVersion="2.03" dataRevision="6"/>
     <dataIndexEntry filePath="Anti Earth Union Group.catz" dataType="catalogue" dataId="ddfe-38b2-4487-73ee" dataName="Anti Earth Union Group" dataBattleScribeVersion="2.03" dataRevision="3"/>
   </dataIndexEntries>
